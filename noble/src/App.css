@@ -1,0 +1,76 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Heading{
+  color: brown;
+  font-size: 2rem;
+  font-weight: 600;
+ align-items: center;
+ margin: auto;
+ padding: 1rem 2rem;
+ background-color: bisque;
+ align-self: center;
+ justify-items: center;
+ 
+}
+
+.btn{
+  border-radius: 10%;
+  border: 1px solid black;
+  padding: .3rem 1rem;
+  margin: .5rem;
+cursor: pointer;
+  font-weight: 700;
+  font-size: .8rem;
+  color: rgb(252, 204, 151);
+
+&&:hover{
+  background-color: bisque;
+  color: darkblue;
+}}
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: .3rem 1.3rem;
+}
+
+.serialNo{
+  font: bolder;
+  color:rgb(56, 31, 12);
+font-size: 1.5rem;
+border-radius: 1rem;
+background-color: chocolate;
+margin: 2rem 1.9rem;
+padding: .4rem;
+margin-top: 2rem;
+}
+
+.todo{
+  font-size: 1.5rem;
+  color: brown;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: center;
+ 
+  align-self: flex-starts;
+
+
+
+}
+
+input{
+  margin: 2rem;
+  outline: none;
+  border: 2px;
+border-bottom: .9rem;
+  background-color: rgb(212, 162, 162);
+  color:rgb(85, 0, 0);
+  width: 50%;
+  padding: .4rem 1.1rem;
+  font-size: 1.1rem;
+}
